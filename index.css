@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+header.tutorials {
+  background: #f8ba24;
+  padding: 10px;
+  width: 400px;
+  height: 50px;
+  border-bottom: hidden;
+  margin-left: 5px;
+}
+
+.javascript {
+  margin-left: 10px;
+}
+
+header {
+  font-weight: 400;
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  display: flex;
+  font-family: Arial, Verdana, Tahoma;
+}
+nav {
+  max-width: 500px;
+  background: rgb(218, 216, 216);
+  height: 124vh;
+  border-right: 2px #777;
+}
+
+nav header {
+  padding: 15px;
+}
+
+nav a {
+  color: black;
+  display: block;
+  border-bottom: 1px dotted #777;
+  padding: 10px;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  background: white;
+  margin-left: 10px;
+}
+
+main p {
+  margin: 0.5em 0.2em 0.6em 0.2em;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 18px;
+  text-align: justify;
+}
+
+h2 {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  background: url(https://www.tutorialspoint.com/images/list-icon.png) no-repeat
+    0 9px;
+}
+
+ul > li {
+  list-style: url(https://www.tutorialspoint.com/images/icon-bullet.png);
+}
